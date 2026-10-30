@@ -1,0 +1,21 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime-generated files
+/uploads/
+/logs/
+*.log
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database exports and backups
+*.sqlite
+*.sqlite3
+*.db
+*.bak
